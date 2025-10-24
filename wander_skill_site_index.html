@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wander Skill — O Novo Rostro do Drill Angolano</title>
+  <meta name="description" content="Wander Skill — Rapper, CEO da CLONEmusic. Música, vídeos, notícias e bookings.">
+  <style>
+    :root{--bg:#060606;--card:#0f0f0f;--muted:#a9a9a9;--accent:#e63946;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#fff;background:linear-gradient(180deg,#030304 0%,#0b0b0f 100%)}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+
+    /* Header / Hero */
+    header{display:flex;align-items:center;gap:20px;padding:28px 0}
+    .logo{display:flex;flex-direction:column}
+    .brand{font-weight:800;font-size:20px;letter-spacing:1px}
+    .subtitle{color:var(--muted);font-size:13px}
+    nav{margin-left:auto;display:flex;gap:14px}
+    nav a{padding:8px 12px;border-radius:8px;font-size:14px}
+    nav a.btn{background:var(--glass)}
+
+    .hero{display:flex;gap:30px;align-items:center;padding:40px 0}
+    .hero-left{flex:1}
+    .title{font-size:34px;margin:0 0 12px}
+    .lead{color:var(--muted);margin:0 0 18px}
+    .actions{display:flex;gap:12px}
+    .btn-primary{background:var(--accent);color:#fff;padding:12px 16px;border-radius:10px;font-weight:700}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:12px 16px;border-radius:10px;color:var(--muted)}
+
+    .hero-right{width:420px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:14px}
+
+    /* Sections */
+    section{margin:28px 0}
+    h2{margin:0 0 12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+
+    /* Player */
+    .video-embed{position:relative;padding-top:56.25%;border-radius:10px;overflow:hidden}
+    .video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+
+    /* Socials */
+    .socials{display:flex;gap:10px;flex-wrap:wrap}
+    .socials a{display:inline-flex;align-items:center;gap:8px;padding:8px 10px;background:var(--glass);border-radius:10px;font-size:14px}
+
+    /* About */
+    .bio{background:var(--card);padding:16px;border-radius:12px;color:var(--muted)}
+
+    /* Gallery */
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+
+    /* Contact */
+    .contact-card{display:flex;flex-direction:column;gap:10px;background:var(--card);padding:16px;border-radius:12px}
+
+    footer{padding:18px 0;color:var(--muted);font-size:14px;text-align:center}
+
+    @media(max-width:820px){.hero{flex-direction:column}.hero-right{width:100%}.gallery{grid-template-columns:repeat(2,1fr)}.title{font-size:26px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="brand">Wander Skill</div>
+        <div class="subtitle">O Novo Rostro do Drill Angolano — CEO da CLONEmusic</div>
+      </div>
+
+      <nav>
+        <a href="#musicas" class="btn">MÚSICAS</a>
+        <a href="#sobre" class="btn">SOBRE</a>
+        <a href="#galeria" class="btn">GALERIA</a>
+        <a href="#contato" class="btn">BOOKING</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-left">
+          <h1 class="title">Wander Skill — O Novo Rostro do Drill Angolano</h1>
+          <p class="lead">Rapper, CEO da CLONEmusic e voz da nova era. Explora músicas, vídeos e tudo sobre a jornada do artista.</p>
+
+          <div class="actions">
+            <a class="btn-primary" href="#musicas">Ouvir Agora</a>
+            <a class="btn-ghost" href="#contato">Contratar</a>
+          </div>
+
+          <div style="margin-top:18px" class="socials">
+            <a href="https://www.instagram.com/wanderskilll" target="_blank">Instagram</a>
+            <a href="https://m.facebook.com/Wanderskilll" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com/@wanderskill" target="_blank">TikTok</a>
+            <a href="https://x.com/wanderskilll" target="_blank">X / Twitter</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card">
+            <strong>Último Lançamento</strong>
+            <div style="margin-top:10px">
+              <div class="video-embed">
+                <!-- Vídeo "Batalha" embed -->
+                <iframe src="https://www.youtube.com/embed/L3QgRANR_Wo" title="Batalha — Wander Skill" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <p style="margin:10px 0 0;color:var(--muted);font-size:13px">Batalha — disponível no YouTube. Também no Spotify, Apple Music e SoundCloud.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="musicas">
+        <h2>Músicas & Links</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Batalha</strong>
+            <p class="lead" style="margin:6px 0;color:var(--muted);font-size:14px">Assiste agora no YouTube ou segue nas plataformas abaixo.</p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+              <a href="https://youtu.be/L3QgRANR_Wo" target="_blank" class="btn-ghost">YouTube</a>
+              <a href="https://open.spotify.com/artist/7G3onE5Zy7jdqtsLJNrIvD?si=twelwftlTEONqWCcuSYXQw" target="_blank" class="btn-ghost">Spotify</a>
+              <a href="https://music.apple.com/ao/artist/wander-skill/1735895401" target="_blank" class="btn-ghost">Apple Music</a>
+              <a href="https://soundcloud.com/wanderskill" target="_blank" class="btn-ghost">SoundCloud</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <strong>Ouvir / Seguir</strong>
+            <p style="color:var(--muted);margin:6px 0;font-size:13px">Links oficiais do artista.</p>
+            <div style="display:flex;flex-direction:column;gap:8px;margin-top:10px">
+              <a href="https://open.spotify.com/artist/7G3onE5Zy7jdqtsLJNrIvD?si=twelwftlTEONqWCcuSYXQw" target="_blank">Spotify — Wander Skill</a>
+              <a href="https://music.apple.com/ao/artist/wander-skill/1735895401" target="_blank">Apple Music — Wander Skill</a>
+              <a href="https://soundcloud.com/wanderskill" target="_blank">SoundCloud</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <strong>Vídeos</strong>
+            <p style="color:var(--muted);margin:6px 0;font-size:13px">Canal oficial no YouTube.</p>
+            <a href="https://youtu.be/L3QgRANR_Wo" target="_blank" class="btn-ghost">Ver Batalha no YouTube</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre Wander Skill</h2>
+        <div class="bio">
+          <p>Wander Skill é um artista angolano focado no estilo Drill. CEO da CLONEmusic, lançou a faixa "Nova Era" e tem vindo a construir presença nas plataformas digitais. Misturando letras diretas com batidas intensas, Wander representa a nova geração do gueto angolano, trazendo autenticidade e energia para cada performance.</p>
+        </div>
+      </section>
+
+      <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="foto">
+          <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="foto">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="foto">
+        </div>
+        <p style="color:var(--muted);font-size:13px;margin-top:8px">Envie as tuas fotos para aparecer aqui — imagens de alta resolução funcionam melhor.</p>
+      </section>
+
+      <section id="contato">
+        <h2>Booking & Contato</h2>
+        <div class="contact-card">
+          <div><strong>Telefone:</strong> <a href="tel:+244940405517">+244 940 405 517</a></div>
+          <div><strong>E-mail:</strong> <a href="mailto:contato.wanderskill@gmail.com">contato.wanderskill@gmail.com</a></div>
+          <div style="color:var(--muted);font-size:13px">Para press kit, apresentações e colaborações, entra em contacto através do telefone ou e-mail.</div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      © <span id="year"></span> Wander Skill — CLONEmusic. Todos os direitos reservados.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!--
+    INSTRUÇÕES DE DEPLOY (resumo):
+    1) Cria uma conta no GitHub (github.com) se ainda não tens.
+    2) Cria um repositório novo chamado: wanderskill.github.io (substitui 'wanderskill' pelo teu username no GitHub).
+    3) Adiciona este ficheiro como index.html na raiz do repositório e faz commit.
+    4) Vai a Settings -> Pages e confirma que a branch main (ou master) está a servir a pasta / (root). O site ficará disponível em https://<username>.github.io
+    5) Para usar um domínio próprio (ex: wanderskill.tk) cria um ficheiro CNAME com o domínio (linha única: wanderskill.tk) e configura os registos DNS no Freenom para apontar para username.github.io (CNAME) ou para os IPs do GitHub Pages.
+
+    NOTA: Se quiseres, eu crio também o ficheiro CNAME e um README pronto para o repositório.
+  -->
+</body>
+</html>
